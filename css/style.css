@@ -9671,6 +9671,11 @@ button.bg-dark:focus {
   font-weight: 900 !important;
 }
 
+.hero-img {
+  filter: blur(2px);
+  object-fit: cover;
+}
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #f56649 !important;
@@ -9968,7 +9973,7 @@ h6,
 
 .carousel-indicators .active {
   width: 50px;
-  background: #ffffff;
+  background: #E09145;
 }
 
 .carousel-caption {
