@@ -110,3 +110,13 @@
     
 })(jQuery);
 
+
+// navbar color
+$(window).on("scroll", function() {
+    var scrollPos = $(window).scrollTop();
+    if (scrollPos <= 0) {
+        $('.navbar').addClass('top-of-page');
+    } else {
+        $('.navbar').removeClass('top-of-page');
+    }
+});
